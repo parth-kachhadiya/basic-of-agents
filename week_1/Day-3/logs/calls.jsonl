@@ -1,0 +1,14 @@
+{"model": "openai/gpt-4o-mini", "input_tokens": 22, "output_tokens": 62, "latency_s": 2.79, "cost_usd": "0.000040", "finish_reason": "stop", "ttft_s": 1.96}
+{"model": "openai/gpt-4o-mini", "input_tokens": 156, "output_tokens": 45, "latency_s": 1.3, "cost_usd": "0.000050", "finish_reason": "tool_calls", "ttft_s": 1.26}
+{"model": "openai/gpt-4o-mini", "input_tokens": 22, "output_tokens": 57, "latency_s": 1.62, "cost_usd": "0.000037", "finish_reason": "stop", "ttft_s": 1.11}
+{"model": "openai/gpt-4o-mini", "input_tokens": 156, "output_tokens": 45, "latency_s": 1.46, "cost_usd": "0.000050", "finish_reason": "tool_calls", "ttft_s": 1.41}
+{"model": "openai/gpt-4o-mini", "input_tokens": 527, "output_tokens": 123, "latency_s": 2.36, "cost_usd": "0.000153", "finish_reason": "stop"}
+{"model": "openai/gpt-4o-mini", "input_tokens": 542, "output_tokens": 116, "latency_s": 2.38, "cost_usd": "0.000151", "finish_reason": "stop"}
+{"model": "openai/gpt-4o-mini", "input_tokens": 536, "output_tokens": 125, "latency_s": 1.79, "cost_usd": "0.000155", "finish_reason": "stop"}
+{"model": "openai/gpt-4o-mini", "input_tokens": 536, "output_tokens": 100, "latency_s": 2.35, "cost_usd": "0.000140", "finish_reason": "stop"}
+{"model": "openai/gpt-4o-mini", "input_tokens": 520, "output_tokens": 119, "latency_s": 1.7, "cost_usd": "0.000149", "finish_reason": "stop"}
+{"model": "openai/gpt-4o-mini", "input_tokens": 524, "output_tokens": 93, "latency_s": 1.47, "cost_usd": "0.000134", "finish_reason": "stop"}
+{"model": "openai/gpt-4o-mini", "input_tokens": 511, "output_tokens": 88, "latency_s": 1.41, "cost_usd": "0.000129", "finish_reason": "stop"}
+{"model": "openai/gpt-4o-mini", "input_tokens": 544, "output_tokens": 151, "latency_s": 1.81, "cost_usd": "0.000172", "finish_reason": "stop"}
+{"model": "openai/gpt-4o-mini", "input_tokens": 564, "output_tokens": 129, "latency_s": 2.72, "cost_usd": "0.000162", "finish_reason": "stop"}
+{"model": "openai/gpt-4o-mini", "input_tokens": 512, "output_tokens": 115, "latency_s": 2.26, "cost_usd": "0.000146", "finish_reason": "stop"}
