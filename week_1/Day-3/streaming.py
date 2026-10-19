@@ -1,6 +1,11 @@
 """
 streaming.py - Week 1, Day 3
 
+Problem Statement:
+    A business receives bills as free-form text: emails, chat messages, forwarded mails. The accounts team needs clean, 
+    correct records from them. Build a component that turns a bill’s text into a validated invoice record, never lets wrong data through, 
+    and tells you how often it is right.
+
 > `Day - 3` has 3 jobs..**
 
 1. Make the model return data in `fixed shape` and check it with `Pydantic`. if the check fails, retry once and send the error back.

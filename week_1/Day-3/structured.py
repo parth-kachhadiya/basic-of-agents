@@ -23,12 +23,12 @@ from llm import llm
 class LineItem(BaseModel):
     description : str
     quantity    : float = Field(gt = 0)
-    unit_price  : float = Field(gt = 0)
+    unit_price  : float = Field(ge = 0)
 
 class Invoice(BaseModel):
     vendor : str
     invoice_number : Optional[str] = None
-    invoice_date   : str
+    invoice_date   : date
     currency       : Literal["INR", "USD", "EUR"]
     items          : list[LineItem] = Field(min_length = 1)
     tax            : float = Field(default = 0, ge = 0)
@@ -66,6 +66,7 @@ def build_system_prompt() -> str:
         "- If a value is not in the text (for example the invoice number), use null. Never invent values.\n"
         "- tax is the total tax amount (0 if none). total is the final amount payable.\n"
         "- currency: map symbols to codes (Rs or the rupee sign -> INR, $ -> USD, euro sign -> EUR)."
+        "- An invoice number may be labelled 'invoice no', 'bill no', 'ref' or 'ref no'. Use it if present; use null only if there is no such code."
     )
 
 
@@ -124,7 +125,6 @@ def extract(text: str, max_retries: int = 1) -> tuple[Invoice, int]:
  
 
 
-'''
 if __name__ == "__main__":
     sample = (
         "Hi, bill from Patel Hardware (ref PH/2026/334) dated 20/10/2026. "
@@ -134,4 +134,3 @@ if __name__ == "__main__":
     invoice, retries = extract(sample)
     print(invoice.model_dump_json(indent=2))
     print(f"\nRetries used: {retries}")
-'''
