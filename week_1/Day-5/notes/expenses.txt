@@ -1,0 +1,4 @@
+Expense: Rent = 12000
+Expense: Food = 6500
+Expense: Travel = 3200
+Expense: Utilities = 1800

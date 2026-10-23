@@ -1,0 +1,7 @@
+Run order:
+
+python orchestrator.py
+python evaluator_optimizer.py
+python evaluator_optimizer.py hard
+python compare.py
+python cost_report.py
