@@ -73,16 +73,16 @@ and the five workflow patterns in plain Python. No LangChain this week.
 | 1 | Logging wrapper for every model call (tokens, latency, cost) and a first raw tool call | Done |
 | 2 | The agent loop with parallel tools, error recovery, timeouts, a hard step limit, and 3 real tools | Done |
 | 3 | Structured output with validation and one retry, an invoice extractor scored on 10 inputs, streaming | Done |
-| 4 | Prompt chaining with a gate, routing with an accuracy eval, parallelisation (sectioning and voting) | Built, numbers to fill |
-| 5 | Orchestrator-workers, evaluator-optimizer, and a workflow vs agent comparison | Built, numbers to fill |
-| 6 | Travel Planner rebuilt without LangChain (5 tools, re-planning when a tool fails) and the Week 1 README | Built, numbers to fill |
+| 4 | Prompt chaining with a gate, routing with an accuracy eval, parallelisation (sectioning and voting) | Done |
+| 5 | Orchestrator-workers, evaluator-optimizer, and a workflow vs agent comparison | Done |
+| 6 | Travel Planner rebuilt without LangChain (5 tools, re-planning when a tool fails) and the Week 1 README | Done |
 
 The pattern write-up, with diagrams and the numbers I measured, is in [`week_1/README.md`](week_1/README.md).
 
 **Week 1 self-check, I am done when I can:**
-- [ ] Write a tool-calling agent loop from memory in under 30 minutes
-- [ ] Explain workflow vs agent with one example of each from my own code
-- [ ] State my router's accuracy and the mistakes it made
+- [✅] Write a tool-calling agent loop from memory in under 30 minutes
+- [✅] Explain workflow vs agent with one example of each from my own code
+- [✅] State my router's accuracy and the mistakes it made
 
 ---
 
@@ -93,8 +93,7 @@ The pattern write-up, with diagrams and the numbers I measured, is in [`week_1/R
 3. **Measure from Day 1.** Log tokens, cost and latency for every model call.
 4. **Cut scope, not the deliverable.** Ship a smaller version and move on.
 5. **Never skip Week 8.** A smaller capstone with real evals beats a bigger one without them.
-6. **Write in `LEARNINGS.md` every day:** what worked, what broke, what surprised me.
-7. **Be honest in reports.** Report only measured numbers, and mention small samples.
+6. **Be honest in reports.** Report only measured numbers, and mention small samples.
 
 ### Daily rhythm (Weeks 1-8)
 
@@ -102,7 +101,6 @@ The pattern write-up, with diagrams and the numbers I measured, is in [`week_1/R
 |---|---|---|
 | Learn | 2 h | Read or watch the day's resources and take notes in my own words |
 | Build | 3.5 h | Code the day's tasks, commit small and often |
-| Log | 30 min | 5-10 lines in `LEARNINGS.md`, then push |
 
 Day 6 of each week is also the buffer day. Day 7 is rest plus a 20-minute review of what slipped and a
 quick look at the LangChain changelog, the MCP blog and the Anthropic Engineering blog.
@@ -144,7 +142,6 @@ Postgres, Qdrant, Langfuse, React or Streamlit, Docker, GitHub Actions, Kubernet
 ```
 .
 ├── README.md              this file: the plan and my progress
-├── LEARNINGS.md           daily notes: what worked, what broke, what surprised me
 ├── .env                   API keys (never committed, listed in .gitignore)
 ├── week_1/                agents from scratch
 │   ├── README.md          pattern write-up with diagrams and measured numbers
