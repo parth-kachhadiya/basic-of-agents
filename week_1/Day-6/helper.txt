@@ -1,0 +1,5 @@
+python travel_planner.py                 # sold-out dates both ways, so it must change the dates
+python travel_planner.py tight           # budget Rs. 22,000, only the cheapest hotel fits
+python travel_planner.py impossible      # budget Rs. 9,000, it must say "this cannot work"
+python travel_planner.py manali          # no airport, it must say what is not covered
+python travel_planner.py default flaky   # the first hotel search fails with a 503, it must retry

@@ -1,0 +1,176 @@
+{
+    "_comment": "MOCK DATA for the Week 1 Travel Planner. Fictional hotels and prices.",
+    "currency": "INR",
+    "cities": {
+      "Goa": [
+        {
+          "name": "Budget Inn",
+          "area": "Calangute",
+          "rating": 3.4,
+          "price_per_night_rs": 1400,
+          "breakfast_included": false,
+          "free_cancellation": false
+        },
+        {
+          "name": "Beach Shack Stay",
+          "area": "Baga",
+          "rating": 3.9,
+          "price_per_night_rs": 2200,
+          "breakfast_included": true,
+          "free_cancellation": true
+        },
+        {
+          "name": "Palm Resort",
+          "area": "Candolim",
+          "rating": 4.3,
+          "price_per_night_rs": 4800,
+          "breakfast_included": true,
+          "free_cancellation": true
+        },
+        {
+          "name": "Sea View Suites",
+          "area": "Vagator",
+          "rating": 4.6,
+          "price_per_night_rs": 7500,
+          "breakfast_included": true,
+          "free_cancellation": true
+        }
+      ],
+      "Jaipur": [
+        {
+          "name": "Haveli Stay",
+          "area": "Bani Park",
+          "rating": 3.8,
+          "price_per_night_rs": 1800,
+          "breakfast_included": true,
+          "free_cancellation": false
+        },
+        {
+          "name": "Pink City Inn",
+          "area": "C-Scheme",
+          "rating": 4.0,
+          "price_per_night_rs": 2600,
+          "breakfast_included": true,
+          "free_cancellation": true
+        },
+        {
+          "name": "Amber Residency",
+          "area": "Amer Road",
+          "rating": 4.2,
+          "price_per_night_rs": 4200,
+          "breakfast_included": true,
+          "free_cancellation": true
+        },
+        {
+          "name": "Rajmahal Palace",
+          "area": "Rajmahal Road",
+          "rating": 4.5,
+          "price_per_night_rs": 6900,
+          "breakfast_included": true,
+          "free_cancellation": true
+        }
+      ],
+      "Mumbai": [
+        {
+          "name": "Harbour Lodge",
+          "area": "Colaba",
+          "rating": 3.7,
+          "price_per_night_rs": 2800,
+          "breakfast_included": false,
+          "free_cancellation": false
+        },
+        {
+          "name": "Andheri Comfort",
+          "area": "Andheri East",
+          "rating": 3.9,
+          "price_per_night_rs": 3900,
+          "breakfast_included": true,
+          "free_cancellation": true
+        },
+        {
+          "name": "Marine Drive Hotel",
+          "area": "Marine Drive",
+          "rating": 4.2,
+          "price_per_night_rs": 5600,
+          "breakfast_included": true,
+          "free_cancellation": true
+        },
+        {
+          "name": "Bay Grand",
+          "area": "Nariman Point",
+          "rating": 4.5,
+          "price_per_night_rs": 8800,
+          "breakfast_included": true,
+          "free_cancellation": true
+        }
+      ],
+      "Delhi": [
+        {
+          "name": "Metro Stay",
+          "area": "Paharganj",
+          "rating": 3.6,
+          "price_per_night_rs": 2100,
+          "breakfast_included": false,
+          "free_cancellation": false
+        },
+        {
+          "name": "Karol Bagh Inn",
+          "area": "Karol Bagh",
+          "rating": 3.9,
+          "price_per_night_rs": 3200,
+          "breakfast_included": true,
+          "free_cancellation": true
+        },
+        {
+          "name": "Connaught Inn",
+          "area": "Connaught Place",
+          "rating": 4.1,
+          "price_per_night_rs": 4300,
+          "breakfast_included": true,
+          "free_cancellation": true
+        },
+        {
+          "name": "Capital Grand",
+          "area": "Aerocity",
+          "rating": 4.5,
+          "price_per_night_rs": 7800,
+          "breakfast_included": true,
+          "free_cancellation": true
+        }
+      ],
+      "Manali": [
+        {
+          "name": "Pine Cottage",
+          "area": "Old Manali",
+          "rating": 3.8,
+          "price_per_night_rs": 1500,
+          "breakfast_included": true,
+          "free_cancellation": false
+        },
+        {
+          "name": "Riverside Camp",
+          "area": "Aleo",
+          "rating": 4.0,
+          "price_per_night_rs": 2400,
+          "breakfast_included": true,
+          "free_cancellation": true
+        },
+        {
+          "name": "Snow View Resort",
+          "area": "Mall Road",
+          "rating": 4.3,
+          "price_per_night_rs": 4200,
+          "breakfast_included": true,
+          "free_cancellation": true
+        },
+        {
+          "name": "Himalayan Retreat",
+          "area": "Solang Road",
+          "rating": 4.5,
+          "price_per_night_rs": 6200,
+          "breakfast_included": true,
+          "free_cancellation": true
+        }
+      ]
+    }
+  }

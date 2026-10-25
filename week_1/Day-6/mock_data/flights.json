@@ -1,0 +1,192 @@
+{
+    "_comment": "MOCK DATA for the Week 1 Travel Planner. Fictional airlines, not real schedules or prices.",
+    "currency": "INR",
+    "weekend_days": [
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "weekend_surcharge_rs": 400,
+    "routes": [
+      {
+        "origin": "Surat",
+        "destination": "Goa",
+        "flights": [
+          {
+            "flight_no": "SJ101",
+            "airline": "SkyJet",
+            "departs": "06:30",
+            "arrives": "08:10",
+            "price_rs": 4800
+          },
+          {
+            "flight_no": "AK245",
+            "airline": "AirKing",
+            "departs": "18:45",
+            "arrives": "20:25",
+            "price_rs": 5500
+          }
+        ]
+      },
+      {
+        "origin": "Goa",
+        "destination": "Surat",
+        "flights": [
+          {
+            "flight_no": "SJ102",
+            "airline": "SkyJet",
+            "departs": "09:00",
+            "arrives": "10:40",
+            "price_rs": 4600
+          },
+          {
+            "flight_no": "AK246",
+            "airline": "AirKing",
+            "departs": "21:15",
+            "arrives": "22:55",
+            "price_rs": 5300
+          }
+        ]
+      },
+      {
+        "origin": "Surat",
+        "destination": "Jaipur",
+        "flights": [
+          {
+            "flight_no": "SJ201",
+            "airline": "SkyJet",
+            "departs": "07:15",
+            "arrives": "09:05",
+            "price_rs": 5200
+          },
+          {
+            "flight_no": "AK310",
+            "airline": "AirKing",
+            "departs": "17:30",
+            "arrives": "19:20",
+            "price_rs": 5900
+          }
+        ]
+      },
+      {
+        "origin": "Jaipur",
+        "destination": "Surat",
+        "flights": [
+          {
+            "flight_no": "SJ202",
+            "airline": "SkyJet",
+            "departs": "10:00",
+            "arrives": "11:50",
+            "price_rs": 5000
+          },
+          {
+            "flight_no": "AK311",
+            "airline": "AirKing",
+            "departs": "20:00",
+            "arrives": "21:50",
+            "price_rs": 5700
+          }
+        ]
+      },
+      {
+        "origin": "Surat",
+        "destination": "Delhi",
+        "flights": [
+          {
+            "flight_no": "SJ301",
+            "airline": "SkyJet",
+            "departs": "06:00",
+            "arrives": "08:10",
+            "price_rs": 5600
+          },
+          {
+            "flight_no": "AK420",
+            "airline": "AirKing",
+            "departs": "19:10",
+            "arrives": "21:20",
+            "price_rs": 6300
+          }
+        ]
+      },
+      {
+        "origin": "Delhi",
+        "destination": "Surat",
+        "flights": [
+          {
+            "flight_no": "SJ302",
+            "airline": "SkyJet",
+            "departs": "09:30",
+            "arrives": "11:40",
+            "price_rs": 5400
+          },
+          {
+            "flight_no": "AK421",
+            "airline": "AirKing",
+            "departs": "20:30",
+            "arrives": "22:40",
+            "price_rs": 6100
+          }
+        ]
+      },
+      {
+        "origin": "Surat",
+        "destination": "Mumbai",
+        "flights": [
+          {
+            "flight_no": "SJ401",
+            "airline": "SkyJet",
+            "departs": "08:00",
+            "arrives": "09:00",
+            "price_rs": 3200
+          },
+          {
+            "flight_no": "AK510",
+            "airline": "AirKing",
+            "departs": "16:30",
+            "arrives": "17:30",
+            "price_rs": 3900
+          }
+        ]
+      },
+      {
+        "origin": "Mumbai",
+        "destination": "Surat",
+        "flights": [
+          {
+            "flight_no": "SJ402",
+            "airline": "SkyJet",
+            "departs": "10:00",
+            "arrives": "11:00",
+            "price_rs": 3000
+          },
+          {
+            "flight_no": "AK511",
+            "airline": "AirKing",
+            "departs": "19:00",
+            "arrives": "20:00",
+            "price_rs": 3700
+          }
+        ]
+      }
+    ],
+    "sold_out": [
+      {
+        "origin": "Surat",
+        "destination": "Goa",
+        "date": "2026-11-14"
+      },
+      {
+        "origin": "Surat",
+        "destination": "Goa",
+        "date": "2026-11-15"
+      },
+      {
+        "origin": "Goa",
+        "destination": "Surat",
+        "date": "2026-11-17"
+      }
+    ],
+    "no_airport": {
+      "Manali": "No airport in Manali. Nearest airports: Kullu-Manali (Bhuntar) and Chandigarh. Direct flights from Surat exist only to Goa, Jaipur, Delhi and Mumbai."
+    }
+  }

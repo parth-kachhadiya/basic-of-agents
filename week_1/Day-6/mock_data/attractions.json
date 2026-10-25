@@ -1,0 +1,191 @@
+{
+    "_comment": "MOCK DATA for the Week 1 Travel Planner. cost_rs is per person, roughly, except meals (for two).",
+    "currency": "INR",
+    "cities": {
+      "Goa": [
+        {
+          "name": "Baga Beach",
+          "category": "beach",
+          "cost_rs": 0,
+          "duration_hours": 3,
+          "best_time": "sunset"
+        },
+        {
+          "name": "Fort Aguada",
+          "category": "history",
+          "cost_rs": 50,
+          "duration_hours": 2,
+          "best_time": "morning"
+        },
+        {
+          "name": "Fisherman's Wharf Dinner",
+          "category": "food",
+          "cost_rs": 1200,
+          "duration_hours": 2,
+          "best_time": "evening"
+        },
+        {
+          "name": "Saturday Night Market",
+          "category": "shopping",
+          "cost_rs": 0,
+          "duration_hours": 3,
+          "best_time": "evening"
+        },
+        {
+          "name": "Dudhsagar Falls",
+          "category": "nature",
+          "cost_rs": 600,
+          "duration_hours": 5,
+          "best_time": "morning"
+        }
+      ],
+      "Jaipur": [
+        {
+          "name": "Amber Fort",
+          "category": "history",
+          "cost_rs": 200,
+          "duration_hours": 3,
+          "best_time": "morning"
+        },
+        {
+          "name": "Hawa Mahal",
+          "category": "history",
+          "cost_rs": 50,
+          "duration_hours": 1,
+          "best_time": "morning"
+        },
+        {
+          "name": "Chokhi Dhani Dinner",
+          "category": "food",
+          "cost_rs": 1100,
+          "duration_hours": 3,
+          "best_time": "evening"
+        },
+        {
+          "name": "Johari Bazaar",
+          "category": "shopping",
+          "cost_rs": 0,
+          "duration_hours": 2,
+          "best_time": "evening"
+        },
+        {
+          "name": "Jantar Mantar",
+          "category": "history",
+          "cost_rs": 50,
+          "duration_hours": 1.5,
+          "best_time": "morning"
+        }
+      ],
+      "Mumbai": [
+        {
+          "name": "Marine Drive Walk",
+          "category": "sightseeing",
+          "cost_rs": 0,
+          "duration_hours": 1.5,
+          "best_time": "sunset"
+        },
+        {
+          "name": "Elephanta Caves",
+          "category": "history",
+          "cost_rs": 300,
+          "duration_hours": 5,
+          "best_time": "morning"
+        },
+        {
+          "name": "Mohammed Ali Road Food Trail",
+          "category": "food",
+          "cost_rs": 500,
+          "duration_hours": 2.5,
+          "best_time": "evening"
+        },
+        {
+          "name": "Juhu Beach",
+          "category": "beach",
+          "cost_rs": 0,
+          "duration_hours": 2,
+          "best_time": "evening"
+        },
+        {
+          "name": "Gateway of India",
+          "category": "sightseeing",
+          "cost_rs": 0,
+          "duration_hours": 1,
+          "best_time": "morning"
+        }
+      ],
+      "Delhi": [
+        {
+          "name": "Red Fort",
+          "category": "history",
+          "cost_rs": 35,
+          "duration_hours": 2,
+          "best_time": "morning"
+        },
+        {
+          "name": "Chandni Chowk Food Walk",
+          "category": "food",
+          "cost_rs": 600,
+          "duration_hours": 3,
+          "best_time": "morning"
+        },
+        {
+          "name": "Humayun's Tomb",
+          "category": "history",
+          "cost_rs": 40,
+          "duration_hours": 1.5,
+          "best_time": "afternoon"
+        },
+        {
+          "name": "Lodhi Garden",
+          "category": "nature",
+          "cost_rs": 0,
+          "duration_hours": 1.5,
+          "best_time": "morning"
+        },
+        {
+          "name": "India Gate",
+          "category": "sightseeing",
+          "cost_rs": 0,
+          "duration_hours": 1,
+          "best_time": "evening"
+        }
+      ],
+      "Manali": [
+        {
+          "name": "Solang Valley",
+          "category": "nature",
+          "cost_rs": 500,
+          "duration_hours": 4,
+          "best_time": "morning"
+        },
+        {
+          "name": "Hadimba Temple",
+          "category": "culture",
+          "cost_rs": 0,
+          "duration_hours": 1,
+          "best_time": "morning"
+        },
+        {
+          "name": "Old Manali Cafes",
+          "category": "food",
+          "cost_rs": 700,
+          "duration_hours": 2,
+          "best_time": "evening"
+        },
+        {
+          "name": "Mall Road Stroll",
+          "category": "shopping",
+          "cost_rs": 0,
+          "duration_hours": 2,
+          "best_time": "evening"
+        },
+        {
+          "name": "Beas River Walk",
+          "category": "nature",
+          "cost_rs": 0,
+          "duration_hours": 1.5,
+          "best_time": "afternoon"
+        }
+      ]
+    }
+  }
