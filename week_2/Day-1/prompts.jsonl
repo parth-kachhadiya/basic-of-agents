@@ -1,0 +1,25 @@
+{"prompt": "Show me the details of order A101.", "intent": "get_order"}
+{"prompt": "What's the status of order A102?", "intent": "get_order"}
+{"prompt": "Where is order A103 being shipped to?", "intent": "get_order"}
+{"prompt": "How much did order A105 cost?", "intent": "get_order"}
+{"prompt": "Tell me everything about A104.", "intent": "get_order"}
+{"prompt": "What's going on with A101?", "intent": "get_order"}
+{"prompt": "Is A103 delivered yet?", "intent": "get_order"}
+{"prompt": "What item is in order A102?", "intent": "get_order"}
+{"prompt": "List all orders for Riya Shah.", "intent": "list_orders"}
+{"prompt": "What has riya@example.com bought?", "intent": "list_orders"}
+{"prompt": "Does Arjun Mehta have any orders?", "intent": "list_orders"}
+{"prompt": "Show orders for Neha Patel.", "intent": "list_orders"}
+{"prompt": "Which orders are currently shipped?", "intent": "list_orders"}
+{"prompt": "Riya's stuff", "intent": "list_orders"}
+{"prompt": "How many orders does Neha Patel have?", "intent": "list_orders"}
+{"prompt": "Anything pending for arjun@example.com?", "intent": "list_orders"}
+{"prompt": "Cancel order A102.", "intent": "cancel"}
+{"prompt": "I want to cancel A104, please.", "intent": "cancel"}
+{"prompt": "Please cancel the kettle order for Riya.", "intent": "cancel"}
+{"prompt": "Stop order A105 from going out.", "intent": "cancel"}
+{"prompt": "Can you cancel A101?", "intent": "cancel"}
+{"prompt": "Change the address of A102 to 5 Lake View, Surat.", "intent": "change_address"}
+{"prompt": "Update shipping address for A104 to 9 Hill St, Vadodara.", "intent": "change_address"}
+{"prompt": "Send A105 to 77 Park Ave, Rajkot instead.", "intent": "change_address"}
+{"prompt": "Riya moved to 3 MG Road, Surat. Fix her latest order.", "intent": "change_address"}

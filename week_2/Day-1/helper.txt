@@ -1,0 +1,6 @@
+▣ Purpose of Day-1
+   • The model never sees your code. It sees only tool names, descriptions and what tools return. If those are bad, the agent fails even when your code is perfect.
+
+▣ Execution order
+   - python harness.py 
+   - python size.py 
